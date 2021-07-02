@@ -1,0 +1,172 @@
+/*
+Author: Florian Brouard;
+URI: jardin-thorim.fr;
+Thème Name: none;
+Descritpion: style form;
+Tags: blog, devweb, html, css;
+*/
+
+body {
+    max-width: 1280px;
+    background-color: #6aa84f;
+    margin: auto;
+}
+
+.page-wrapper {
+    background-color: white;
+}
+
+.container {
+    margin: 2% 10%;
+}
+
+.container-large {
+    padding: 0 10%;
+}
+
+li {
+    list-style: none;
+    padding: 2px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.836);
+}
+
+article h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.display-f {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*images & icones*/
+
+.logo {
+    height: 110%;
+    width: 80%;
+}
+
+div.img-flex img {
+    width: 100%;
+}
+
+article img {
+    width: 100%;
+}
+
+div img {
+    width: 100%;
+}
+
+/*Section*/
+
+header {
+    background-color: rgb(3, 61, 1);
+}
+
+.grey-section {
+    background-color: rgb(196, 196, 196);
+}
+
+.dark-section {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.green-section {
+    background-color: #6aa84f;
+    color: white;
+}
+
+.p-center {
+    text-align: center;
+}
+
+.p-customer {
+    line-height: 200px;
+    width: 55%;
+}
+
+.img-customer {
+    width: 40%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.display-footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*cards*/
+
+section.flex-cards {
+    padding-bottom: 0.01%;
+}
+
+.cards {
+    padding: 5%;
+    margin: 10% 10% 0;
+    border-radius: 4% 13%;
+}
+
+.green-cards {
+    background-color: #6aa84f;
+    text-align: center;
+}
+
+.grey-cards {
+    background-color: rgb(196, 196, 196);
+}
+
+.social-menu {
+    width: 20%;
+    margin: 10% 0 0 18%;
+}
+
+/*formulaire*/
+
+input {
+    width: 100%;
+    margin-top: 1%;
+
+}
+
+form div {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 1%;
+}
+
+button {
+    width: 100px;
+    background-color: #6aa84f;
+    color: white;
+    padding: 2%;
+}
+
+button:hover {
+    background-color: #6aa84fd3;
+}
