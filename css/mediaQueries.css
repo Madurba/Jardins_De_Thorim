@@ -22,24 +22,14 @@
         padding-top: 0;
     }
 
-    .container-flex {
-        display: flex;
-
-    }
-
     .section-one-p {
         text-align: center;
         margin: 5% 10% 5% 10%;
     }
-
 }
 
 @media screen and (min-width: 1024px)
 {
-    body {
-        background-color: #6aa84f;
-    }
-
     header {
         justify-content: space-between;
         align-items: center;
@@ -48,6 +38,12 @@
     nav li {
         margin-right: 40px;
     }
+
+    .container-flex {
+        display: flex;
+    }
+
+    /*images*/
     
     div.img-flex img {
         width: 49%;
@@ -55,11 +51,6 @@
 
     div.flex-galery img {
         width: 24%;
-    }
-
-    .cards {
-        margin: 2% 1% 2% 1%;
-        padding: 2%;
     }
 
     .img-flex {
@@ -70,6 +61,21 @@
     .flex-galery {
         display: flex;
         justify-content: space-between;
+    }
+
+    /*cards*/
+
+    section.container.container-flex {
+        padding-bottom: 0;
+    }
+
+    .cards {
+        margin: 2% 1% 2% 1%;
+        padding: 2%;
+    }
+
+    p.p-customer {
+        width: 70%;
     }
 
     .contact {
