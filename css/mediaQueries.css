@@ -1,5 +1,9 @@
 @media screen and (min-width: 768px)
 {
+    .page-wrapper {
+        width: 90%;
+    }
+
     .logo {
         width: 40%;
     }
@@ -22,15 +26,37 @@
         padding-top: 0;
     }
 
-    .section-one-p {
-        text-align: center;
-        margin: 5% 10% 5% 10%;
+/* cards */
+
+    .green-cards {
+        width: 38%;
+    }
+
+    .grey-cards {
+        width: 38%;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .single-card {
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 1024px)
 {
-    header {
+    .page-wrapper {
+        width: 95%;
+    }
+    
+    .display-f {
         justify-content: space-between;
         align-items: center;
     }
@@ -39,11 +65,40 @@
         margin-right: 40px;
     }
 
-    .container-flex {
+/*sections*/
+
+    p.p-customer {
+        width: 70%;
+    }
+
+    .contact {
         display: flex;
     }
 
-    /*images*/
+    .form {
+        width: 70%;
+    }
+
+    li {
+        margin-right: 100px;
+    }
+
+/*cards*/
+
+    .cards {
+        margin: 2% 1% 0% 1%;
+        padding: 2%;
+    }
+
+    .container-flex {
+        flex-wrap: nowrap;
+    }
+
+    div.container.container-flex {
+        padding-bottom: 2%;
+    }
+
+/*images*/
     
     div.img-flex img {
         width: 49%;
@@ -56,41 +111,11 @@
     .img-flex {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 1em;
     }
 
     .flex-galery {
         display: flex;
         justify-content: space-between;
-    }
-
-    /*cards*/
-
-    section.container.container-flex {
-        padding-bottom: 0;
-    }
-
-    .cards {
-        margin: 2% 1% 2% 1%;
-        padding: 2%;
-    }
-
-    p.p-customer {
-        width: 70%;
-    }
-
-    .contact {
-        display: flex;
-    }
-
-    .aside {
-        padding: 10% 3% 10% 10%;
-    }
-
-    .form {
-        width: 70%;
-    }
-
-    li {
-        margin-right: 100px;
     }
 }
